@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: sarutfirstapp
+  buildpack: liberty-for-java
+  path: ./target/sarutfirstapp.zip
+  memory: 512M
+  random-route: true
